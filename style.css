@@ -1,0 +1,375 @@
+ * {
+            font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: #163166;
+    margin: 0px;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+}
+.Pictures{
+    /* background-color: beige; */
+    height: 90%;
+    width: 50%;
+    display: flex;
+    justify-content: end;
+}
+.Pictures .Grid1{
+    /* background-color: aquamarine; */
+    width: 30%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.Pictures .Grid1 .GridContainer{
+    background-color: white;
+    width: 100%;
+    height: 47.5%;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+}
+.Pictures .Grid1 .GridContainer .ContainerContent{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.Pictures .Grid1 .GridContainer .ContainerContent div {
+    height: 120px;
+    width: 120px;
+}
+.Pictures .Grid1 .GridContainer .ContainerContent div img{
+    height: 100%;
+    width: 100%;
+    border-radius: 80px;    
+    object-fit: cover;
+}
+.Pictures .Grid1 .GridContainer .ContainerContent .Name{
+    font-weight: bold;
+    font-size: 20px;
+}
+.Pictures .Grid1 .GridContainer .ContainerContent .Grade{
+    color: orange;
+    font-weight: 400;
+}
+.Pictures .Grid1 .GridContainer .ContainerContent .Social{
+    width: 40%;
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.Pictures .Grid1 .GridContainer .ContainerContent .Social img{
+    height: 20px;
+    width: 20px;
+}
+.Pictures .Grid2:nth-of-type(2){
+    /* background-color: indigo; */
+    width: 30%;
+    height: 90%;
+    margin-left: 20px;
+    display: flex;
+    align-self: flex-end;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.Pictures .Grid2 .GridContainer{
+    background-color: white;
+    width: 100%;
+    height: 47.5%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+}
+.Pictures .Grid2 .GridContainer .ContainerContent{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.Pictures .Grid2 .GridContainer .ContainerContent div {
+    height: 120px;
+    width: 120px;
+}
+.Pictures .Grid2 .GridContainer .ContainerContent div img{
+    height: 100%;
+    width: 100%;
+    border-radius: 80px;    
+    object-fit: cover;
+}
+.Pictures .Grid2 .GridContainer .ContainerContent .Name{
+    font-weight: bold;
+    font-size: 20px;
+}
+.Pictures .Grid2 .GridContainer .ContainerContent .Grade{
+    color: orange;
+    font-weight: 400;
+}
+.Pictures .Grid2 .GridContainer .ContainerContent .Social{
+    width: 40%;
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.Pictures .Grid2 .GridContainer .ContainerContent .Social img{
+    height: 20px;
+    width: 20px;
+}
+.Bio{
+    /* background-color: blueviolet; */
+    height: 90%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+.Bio .BioContent{
+    /* background-color: darkgoldenrod; */
+    height: 50%;
+    width: 50%;
+    margin-left: 20px;
+}
+.Bio .BioContent h1{
+    color: white;
+    margin: 0px;
+    font-size: 40px;
+}
+.Bio .BioContent p{
+    color: white;
+    margin-top: 25px;
+}
+.Bio .BioContent p span{
+    text-decoration: underline;
+}
+.Bio .BioContent button{
+    background-color: white;
+    color: #163166;
+    width: 60%;
+    height: 12%;
+    border: none;
+    border-radius: 25px;
+}
+
+
+@media screen and (min-width: 768px) and (max-width:1023px){
+
+    .Pictures .Grid1{
+        /* background-color: aquamarine; */
+        width: 35%;
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .Pictures .Grid1 .GridContainer{
+        background-color: white;
+        width: 100%;
+        height: 45%;
+        display: flex;
+        align-items: center;
+        border-radius: 20px;
+    }
+    .Pictures .Grid1 .GridContainer .ContainerContent div {
+        height: 100px;
+        width: 100px;
+    }
+    .Pictures .Grid1 .GridContainer .ContainerContent .Name{
+        font-weight: bold;
+        font-size: 17px;
+    }
+    .Pictures .Grid1 .GridContainer .ContainerContent .Grade{
+        color: orange;
+        font-weight: 400;
+        font-size: 13px;
+    }
+    .Pictures .Grid1 .GridContainer .ContainerContent .Social img{
+        height: 15px;
+        width: 15px;
+    }
+    .Pictures .Grid2{
+        /* background-color: aquamarine; */
+        width: 35%;
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .Pictures .Grid2:nth-of-type(2){
+        /* background-color: indigo; */
+        width: 35%;
+        height: 90%;
+        margin-left: 20px;
+        display: flex;
+        align-self: flex-end;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .Pictures .Grid2 .GridContainer{
+        background-color: white;
+        width: 100%;
+        height: 45%;
+        display: flex;
+        align-items: center;
+        border-radius: 20px;
+    }
+    .Pictures .Grid2 .GridContainer .ContainerContent div {
+        height: 100px;
+        width: 100px;
+    }
+    .Pictures .Grid2 .GridContainer .ContainerContent .Name{
+        font-weight: bold;
+        font-size: 17px;
+    }
+    .Pictures .Grid2 .GridContainer .ContainerContent .Grade{
+        color: orange;
+        font-weight: 400;
+        font-size: 13px;
+    }
+    .Pictures .Grid2 .GridContainer .ContainerContent .Social img{
+        height: 15px;
+        width: 15px;
+    }
+    .Bio .BioContent h1{
+        color: white;
+        margin: 0px;
+        font-size: 30px;
+    }
+    .Bio .BioContent p{
+        color: white;
+        margin-top: 25px;
+        font-size: 12px;
+    }
+    .Bio .BioContent button{
+        background-color: white;
+        color: #163166;
+        width: 60%;
+        height: 12%;
+        border: none;
+        border-radius: 25px;
+        font-size: 11px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:767px)
+{
+    body{
+        background-color: #163166;
+        margin: 0px;
+        display: flex;
+        height: 100%;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+    .Pictures{
+        /* background-color: beige; */
+        /* height: auto; */
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30px;
+    }
+    .Pictures .Grid1{
+        /* background-color: aquamarine; */
+        width: 60%;
+    }
+    .Pictures .Grid1 .GridContainer{
+        background-color: white;
+        width: 100%;
+        height: 250px;
+        display: flex;
+        align-items: center;
+        border-radius: 20px;
+        margin-bottom: 30px;
+    }
+    .Pictures .Grid1 .GridContainer .ContainerContent{
+        width: 100%;
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .Pictures .Grid1 .GridContainer .ContainerContent .Social img{
+        height: 15px;
+        width: 15px;
+    }
+    .Pictures .Grid2:nth-of-type(2){
+        /* background-color: indigo; */
+        width: 60%;
+        /* height: 90%; */
+        /* margin-left: 20px; */
+        /* display: flex;
+        align-self: flex-end;
+        flex-direction: column;
+        justify-content: space-between; */
+        margin-right: 63px;
+    }
+    .Pictures .Grid2 .GridContainer{
+        background-color: white;
+        width: calc(100%-63px);
+        height: 250px;
+        display: flex;
+        align-items: center;
+        border-radius: 20px;
+        margin-bottom: 30px;
+    }
+    .Pictures .Grid2 .GridContainer .ContainerContent{
+        width: 100%;
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .Pictures .Grid2 .GridContainer .ContainerContent .Social img{
+        height: 15px;
+        width: 15px;
+    }
+    .Bio{
+        /* background-color: blueviolet; */
+        /* height: auto; */
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .Bio .BioContent{
+        /* background-color: darkgoldenrod; */
+        /* height: 50%; */
+        width: 90%;
+        margin-left: 20px;
+    }
+    .Bio .BioContent h1{
+        color: white;
+        margin: 0px;
+        font-size: 25px;
+    }
+    .Bio .BioContent p{
+        color: white;
+        margin-top: 25px;
+        font-size: 12px;
+    }
+    .Bio .BioContent button{
+        background-color: white;
+        color: #163166;
+        width: 30%;
+        height: 20px;
+        border: none;
+        border-radius: 25px;
+        font-size: 8px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
